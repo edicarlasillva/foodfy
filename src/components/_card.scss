@@ -1,0 +1,36 @@
+.card {
+  width: 100%;
+
+  .card-image {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: $gray-dark;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  .card-owner {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $gray;
+    margin: 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .card {
+    .card-title {
+      font-size: 1.5rem;
+    }
+
+    .card-owner {
+      font-size: 1.2rem;
+    }
+  }
+}

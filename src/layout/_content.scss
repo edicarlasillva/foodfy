@@ -1,0 +1,21 @@
+.content {
+  grid-area: content;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 630px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
